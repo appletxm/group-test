@@ -1,0 +1,28 @@
+{
+  "name": "module-a",
+  "version": "1.0.0",
+  "description": "just want to test the pre-commit",
+  "main": "pre-commit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"dependencies": {
+
+	},
+	"devDependencies":{
+
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appletxm/group-test.git"
+  },
+  "keywords": [
+    "pre-commit"
+  ],
+  "author": "xiumei tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appletxm/group-test/issues"
+  },
+  "homepage": "https://github.com/appletxm/group-test#readme"
+}
