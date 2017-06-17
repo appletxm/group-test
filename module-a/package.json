@@ -5,14 +5,10 @@
 	"main": "pre-commit",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"check": "echo \"----- running module-a check----\" && exit 1"
+		"check": "echo \"----- running module-a check----\""
 	},
-	"dependencies": {
-
-	},
-	"devDependencies": {
-
-	},
+	"dependencies": {},
+	"devDependencies": {},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/appletxm/group-test.git"
