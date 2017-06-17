@@ -10,7 +10,9 @@
 	"dependencies": {
 
 	},
-	"devDependencies": {},
+	"devDependencies": {
+
+	},
 	"keywords": [
 		"pre-commit"
 	],
