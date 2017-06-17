@@ -1,0 +1,25 @@
+{
+	"name": "group-test",
+	"version": "1.0.0",
+	"description": "test the npm and git hooks",
+	"main": "npm and git hooks",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"check": "node hook-check/check.js",
+		"postinstall": "echo \"****All modules are installed successful!!!\"****"
+	},
+	"pre-commit": ["check"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/appletxm/group-test.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/appletxm/group-test/issues"
+	},
+	"homepage": "https://github.com/appletxm/group-test#readme",
+	"devDependencies": {
+		"pre-commit": "^1.2.2"
+	}
+}
