@@ -5,7 +5,7 @@
 	"main": "pre-commit",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"check": "echo \"----- running module-a check----\""
+		"check": "echo \"----- running module-a check----\" && exit 1"
 	},
 	"dependencies": {
 	},
